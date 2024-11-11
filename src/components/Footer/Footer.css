@@ -1,0 +1,27 @@
+.footer{
+    padding: 40px 4%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-icons{
+    margin-bottom: 40px;
+}
+.footer-icons i {
+    font-size: 24px; /* Adjust this value to increase or decrease icon size */
+    margin: 0 10px; /* Add spacing between icons if needed */
+    cursor: pointer;
+}
+
+.footer ul{
+    display: grid ;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.copyright-text{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}

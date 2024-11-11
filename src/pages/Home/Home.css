@@ -1,0 +1,26 @@
+.hero{
+    position: relative;
+}
+.bannerImage{
+    width:100%;
+    mask-image: linear-gradient(to right,transparent,black 75%);
+    -weblit-mask-image:linear-gradient(to right,transparent,black 75%);
+}
+
+.hero-caption{
+    position:absolute;
+    width: 100%;
+    padding-left: 6%;
+    top: 250px;
+    bottom: 0;
+}
+
+.titleImage{
+    width: 300px;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.more-cards{
+    padding-left: 6%;
+}
